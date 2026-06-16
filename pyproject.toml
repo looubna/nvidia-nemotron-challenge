@@ -1,0 +1,23 @@
+[project]
+name = "nemotron-reasoning"
+version = "0.1.0"
+description = "Fine-tuning NVIDIA Nemotron-3-Nano-30B with verified chain-of-thought traces for rule discovery"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kaggle>=2.2.2",
+    "modal>=1.4.1",
+    "pydantic>=2.12.1",
+    "python-dotenv>=1.2.2",
+    "tinker>=0.16.1",
+    "tinker-cookbook>=0.3.0",
+    "torch>=2.11.0",
+    "transformers==4.57.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "ruff>=0.13.2",
+    "tinker>=0.22.3",
+]
