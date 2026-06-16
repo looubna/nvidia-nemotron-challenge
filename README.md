@@ -1,6 +1,6 @@
-# NVIDIA Nemotron Reasoning Challenge — Progress Prize
+# NVIDIA Nemotron Reasoning Challenge — Top 10% Solution
 
-Fine-tuning [NVIDIA-Nemotron-3-Nano-30B-A3B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16) on rule-discovery reasoning problems using **deterministic symbolic solvers** to generate verified chain-of-thought training traces. Achieved **LB 0.85**, winning a Progress Prize in the [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
+Fine-tuning [NVIDIA-Nemotron-3-Nano-30B-A3B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16) on rule-discovery reasoning problems using **deterministic symbolic solvers** to generate verified chain-of-thought training traces. Achieved **LB 0.85** — **460th out of 4,354 teams (top 10%)**, winning a Progress Prize in the [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
 
 - [Kaggle write-up](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/689915)
 - [Kaggle notebook](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code)
