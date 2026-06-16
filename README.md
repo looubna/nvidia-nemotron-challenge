@@ -126,24 +126,6 @@ Five augmenters in `augmenters/` generate synthetic training examples for string
 These are structurally similar to competition problems but different enough to help the model generalize rather than overfit to the narrow training distribution.
 
 
-## Analysis Dashboard
-
-A static site with five views, served locally with `./serve.sh`:
-
-| Tab | What it shows |
-|---|---|
-| **Base** | Problems colored by base-model performance. Click for the prompt, per-run extracted answers, and token-level logprob trace. |
-| **Synthetic** | Problems colored by solver status (rule found / hypothesis / unknown). Click for reasoning text and investigation notes. |
-| **Corpus** | Training corpus entries with masked/unmasked token counts. Open a row to see the token-level trace with masking highlighted. |
-| **Training** | Per-problem loss and min logprob across training steps. Compare epochs against the base model. |
-| **Metrics** | Index of training runs with per-step charts: loss by category, gradient norm, learning rate, step time. |
-
-```sh
-./serve.sh
-# http://localhost:33304/
-```
-
-
 ## Repository Structure
 
 ```
