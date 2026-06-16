@@ -2,8 +2,6 @@
 
 Fine-tuning [NVIDIA-Nemotron-3-Nano-30B-A3B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16) on rule-discovery reasoning problems using deterministic symbolic solvers to generate verified chain-of-thought training traces. Achieved **LB 0.85**, placing **460th out of 4,354 teams (top 10%)** and winning a Progress Prize in the [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
 
-- [Kaggle write-up](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/689915)
-- [Kaggle notebook](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/code)
 
 
 ## The Core Idea
@@ -49,7 +47,7 @@ uv run python3 upload_to_kaggle_local.py
 
 ## Training Setup
 
-Training ran on [Tinker](https://tinker.sh), which handles the LoRA forward/backward passes and optimizer steps and returns per-token logprobs after each step.
+Training ran on [Tinker](https://tinker-docs.thinkingmachines.ai/tinker/), which handles the LoRA forward/backward passes and optimizer steps and returns per-token logprobs after each step.
 
 | Setting | Value |
 |---|---|
